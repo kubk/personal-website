@@ -23,16 +23,14 @@ export default async function Post({ params }: Params) {
       <Header />
       <Container>
         <div className="grid grid-cols-5 gap-6 md:gap-12 pt-16">
-          {/* left sidebar */}
           <div className="col-span-5 md:col-span-1">
             <div className="pt-8">
-              <Link href="/">
+              <Link href="/blog">
                 <p className="text-sm text-slate-400">← Back to Blog</p>
               </Link>
             </div>
           </div>
 
-          {/* middle */}
           <div className="col-span-5 md:col-span-3">
             <article className="pb-32">
               <PostHeader title={post.title} />
@@ -40,7 +38,6 @@ export default async function Post({ params }: Params) {
             </article>
           </div>
 
-          {/* right sidebar */}
           <div className="col-span-5 md:col-span-1"></div>
         </div>
       </Container>

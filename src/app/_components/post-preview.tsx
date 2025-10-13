@@ -15,7 +15,7 @@ export function PostPreview({
   slug: string;
 }) {
   return (
-    <Link href={`/post/${slug}`} className="block">
+    <Link href={`/blog/${slug}`} className="block">
       <article className="relative group">
         <div className="absolute -inset-y-2.5 -inset-x-4 md:-inset-y-4 md:-inset-x-6 sm:rounded-2xl group-hover:bg-slate-50" />
         <Icons.dot className="hidden absolute right-full mr-6 top-2 text-slate-200  md:mr-12 w-[calc(0.5rem+1px)] h-[calc(0.5rem+1px)] overflow-visible sm:block" />

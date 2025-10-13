@@ -7,8 +7,6 @@ import { cn } from "@/lib/utils";
 
 export function MainNav() {
   const pathname = usePathname();
-  const isMainPage = pathname === "/";
-  const isPostsPage = pathname.startsWith("/posts");
 
   return (
     <div className="mr-4 flex">
@@ -17,16 +15,18 @@ export function MainNav() {
           href="/"
           className={cn(
             "transition-colors hover:text-foreground/80",
-            isMainPage ? "text-foreground font-semibold" : "text-foreground/60",
+            pathname === "/"
+              ? "text-foreground font-semibold"
+              : "text-foreground/60",
           )}
         >
           Main
         </Link>
         <Link
-          href="/posts"
+          href="/blog"
           className={cn(
             "transition-colors hover:text-foreground/80",
-            isPostsPage
+            pathname.startsWith("/blog")
               ? "text-foreground font-semibold"
               : "text-foreground/60",
           )}

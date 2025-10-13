@@ -6,10 +6,9 @@ export default function Index() {
     <main>
       <Header />
       <Container>
-        {/* Main message */}
         <div className="py-16 sm:text-center">
           <h1 className="mb-4 text-3xl sm:text-4xl tracking-tight text-slate-900 font-extrabold ">
-            Firstname Lastname
+            Egor Gorbachev
           </h1>
           <h2 className="text-lg text-slate-600">
             I write about building software. Previously at X, and Y.
