@@ -1,6 +1,6 @@
-import Container from "@/app/_components/container";
+import { Container } from "@/app/_components/container";
 import { getAllPosts } from "@/lib/api";
-import Header from "@/app/_components/header";
+import { Header } from "@/app/_components/header";
 import { PostPreview } from "@/app/_components/post-preview";
 
 export default function Index() {

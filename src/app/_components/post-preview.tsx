@@ -1,15 +1,18 @@
 import Link from "next/link";
-import DateFormatter from "@/app/_components/date-formatter";
+import { DateFormatter } from "@/app/_components/date-formatter";
 import { Icons } from "@/app/_components/icons";
 
-type Props = {
+export function PostPreview({
+  title,
+  date,
+  excerpt,
+  slug,
+}: {
   title: string;
   date: string;
   excerpt: string;
   slug: string;
-};
-
-export function PostPreview({ title, date, excerpt, slug }: Props) {
+}) {
   return (
     <article key={slug} className="relative group">
       <div className="absolute -inset-y-2.5 -inset-x-4 md:-inset-y-4 md:-inset-x-6 sm:rounded-2xl group-hover:bg-slate-50" />
