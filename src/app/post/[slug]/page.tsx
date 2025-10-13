@@ -65,6 +65,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const title = `${post.title} | firstlast.dev`;
 
   return {
+    title,
     openGraph: {
       title,
     },
