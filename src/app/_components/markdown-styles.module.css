@@ -1,11 +1,11 @@
 @reference "../globals.css";
 
 .markdown {
-  @apply text-black ;
+  @apply text-foreground ;
 }
 
 /* .markdown strong {
-  @apply font-bold text-black
+  @apply font-bold text-foreground
 } */
 
 .markdown ul {
@@ -65,14 +65,14 @@
 }
 
 .markdown th {
-  @apply border border-gray-300 px-4 py-2 bg-gray-100 font-semibold text-left
+  @apply border px-4 py-2 bg-muted font-semibold text-left
 }
 
 .markdown td {
-  @apply border border-gray-300 px-4 py-2
+  @apply border px-4 py-2
 }
 
 .markdown a {
-  @apply text-blue-600 underline hover:text-blue-800 transition-colors
+  @apply text-primary underline hover:text-primary/80 transition-colors
 }
 
