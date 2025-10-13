@@ -23,7 +23,7 @@ export default function Index() {
               <div className="flex items-center gap-2 text-sm text-slate-600 dark:text-muted-foreground mb-3">
                 <a
                   href="https://github.com/kubk"
-                  className="underline underline-offset-4 decoration-slate-400 dark:decoration-muted-foreground/50 hover:decoration-slate-900 dark:hover:decoration-foreground hover:text-slate-900 dark:hover:text-foreground"
+                  className="underline underline-offset-4 decoration-slate-400 dark:decoration-muted-foreground/50 hover:decoration-slate-900 dark:hover:decoration-muted-foreground hover:text-slate-900 dark:hover:text-foreground"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -34,7 +34,7 @@ export default function Index() {
                 </span>
                 <a
                   href="mailto:7gorbachevm@gmail.com"
-                  className="underline underline-offset-4 decoration-slate-400 dark:decoration-muted-foreground/50 hover:decoration-slate-900 dark:hover:decoration-foreground hover:text-slate-900 dark:hover:text-foreground"
+                  className="underline underline-offset-4 decoration-slate-400 dark:decoration-muted-foreground/50 hover:decoration-slate-900 dark:hover:decoration-muted-foreground hover:text-slate-900 dark:hover:text-foreground"
                 >
                   7gorbachevm@gmail.com
                 </a>
@@ -99,7 +99,7 @@ export default function Index() {
                   (⭐28.1k+️) -{" "}
                   <a
                     href="https://github.com/mobxjs/mobx/pulls?q=is%3Apr+is%3Aclosed+author%3Akubk"
-                    className="underline underline-offset-4 decoration-slate-400 dark:decoration-muted-foreground/50 hover:decoration-slate-900 dark:hover:decoration-foreground"
+                    className="underline underline-offset-4 decoration-slate-400 dark:decoration-muted-foreground/50 hover:decoration-slate-900 dark:hover:decoration-muted-foreground"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -108,7 +108,7 @@ export default function Index() {
                   . Example PR -{" "}
                   <a
                     href="https://github.com/mobxjs/mobx/pull/2213"
-                    className="underline underline-offset-4 decoration-slate-400 dark:decoration-muted-foreground/50 hover:decoration-slate-900 dark:hover:decoration-foreground"
+                    className="underline underline-offset-4 decoration-slate-400 dark:decoration-muted-foreground/50 hover:decoration-slate-900 dark:hover:decoration-muted-foreground"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -123,7 +123,7 @@ export default function Index() {
                   (⭐13.7k+️) -{" "}
                   <a
                     href="https://github.com/phpstan/phpstan-src/pull/2371"
-                    className="underline underline-offset-4 decoration-slate-400 dark:decoration-muted-foreground/50 hover:decoration-slate-900 dark:hover:decoration-foreground"
+                    className="underline underline-offset-4 decoration-slate-400 dark:decoration-muted-foreground/50 hover:decoration-slate-900 dark:hover:decoration-muted-foreground"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -138,7 +138,7 @@ export default function Index() {
                   (⭐9.7k+️) -{" "}
                   <a
                     href="https://github.com/katspaugh/wavesurfer.js/pull/1760"
-                    className="underline underline-offset-4 decoration-slate-400 dark:decoration-muted-foreground/50 hover:decoration-slate-900 dark:hover:decoration-foreground"
+                    className="underline underline-offset-4 decoration-slate-400 dark:decoration-muted-foreground/50 hover:decoration-slate-900 dark:hover:decoration-muted-foreground"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -153,7 +153,7 @@ export default function Index() {
                   (⭐6.7k+️) -{" "}
                   <a
                     href="https://github.com/assistant-ui/assistant-ui/pull/1711"
-                    className="underline underline-offset-4 decoration-slate-400 dark:decoration-muted-foreground/50 hover:decoration-slate-900 dark:hover:decoration-foreground"
+                    className="underline underline-offset-4 decoration-slate-400 dark:decoration-muted-foreground/50 hover:decoration-slate-900 dark:hover:decoration-muted-foreground"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -168,7 +168,7 @@ export default function Index() {
                   (⭐4.0k+️) -{" "}
                   <a
                     href="https://github.com/ts-essentials/ts-essentials/pull/136"
-                    className="underline underline-offset-4 decoration-slate-400 dark:decoration-muted-foreground/50 hover:decoration-slate-900 dark:hover:decoration-foreground"
+                    className="underline underline-offset-4 decoration-slate-400 dark:decoration-muted-foreground/50 hover:decoration-slate-900 dark:hover:decoration-muted-foreground"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -183,7 +183,7 @@ export default function Index() {
                   (⭐1.4k+️) -{" "}
                   <a
                     href="https://github.com/francisrstokes/construct-js/pull/30"
-                    className="underline underline-offset-4 decoration-slate-400 dark:decoration-muted-foreground/50 hover:decoration-slate-900 dark:hover:decoration-foreground"
+                    className="underline underline-offset-4 decoration-slate-400 dark:decoration-muted-foreground/50 hover:decoration-slate-900 dark:hover:decoration-muted-foreground"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -198,7 +198,7 @@ export default function Index() {
                   (⭐479) -{" "}
                   <a
                     href="https://github.com/mobxjs/mobx-angular/pulls?q=is%3Apr+is%3Aclosed+author%3Akubk"
-                    className="underline underline-offset-4 decoration-slate-400 dark:decoration-muted-foreground/50 hover:decoration-slate-900 dark:hover:decoration-foreground"
+                    className="underline underline-offset-4 decoration-slate-400 dark:decoration-muted-foreground/50 hover:decoration-slate-900 dark:hover:decoration-muted-foreground"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -207,7 +207,7 @@ export default function Index() {
                   . Last PR -{" "}
                   <a
                     href="https://github.com/mobxjs/mobx-angular/pull/101"
-                    className="underline underline-offset-4 decoration-slate-400 dark:decoration-muted-foreground/50 hover:decoration-slate-900 dark:hover:decoration-foreground"
+                    className="underline underline-offset-4 decoration-slate-400 dark:decoration-muted-foreground/50 hover:decoration-slate-900 dark:hover:decoration-muted-foreground"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -226,7 +226,7 @@ export default function Index() {
                 <li>
                   <a
                     href="https://habr.com/ru/articles/911996/"
-                    className="underline underline-offset-4 decoration-slate-400 dark:decoration-muted-foreground/50 hover:decoration-slate-900 dark:hover:decoration-foreground"
+                    className="underline underline-offset-4 decoration-slate-400 dark:decoration-muted-foreground/50 hover:decoration-slate-900 dark:hover:decoration-muted-foreground"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -240,7 +240,7 @@ export default function Index() {
                 <li>
                   <a
                     href="https://habr.com/ru/articles/779508/"
-                    className="underline underline-offset-4 decoration-slate-400 dark:decoration-muted-foreground/50 hover:decoration-slate-900 dark:hover:decoration-foreground"
+                    className="underline underline-offset-4 decoration-slate-400 dark:decoration-muted-foreground/50 hover:decoration-slate-900 dark:hover:decoration-muted-foreground"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -263,7 +263,7 @@ export default function Index() {
                 <li>
                   <a
                     href="https://www.youtube.com/watch?v=Tra9NbAwSEY"
-                    className="underline underline-offset-4 decoration-slate-400 dark:decoration-muted-foreground/50 hover:decoration-slate-900 dark:hover:decoration-foreground"
+                    className="underline underline-offset-4 decoration-slate-400 dark:decoration-muted-foreground/50 hover:decoration-slate-900 dark:hover:decoration-muted-foreground"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -281,7 +281,7 @@ export default function Index() {
                 <li>
                   <a
                     href="https://teletype.in/@alteregor/how-to-integrate-telegram-stars"
-                    className="underline underline-offset-4 decoration-slate-400 dark:decoration-muted-foreground/50 hover:decoration-slate-900 dark:hover:decoration-foreground"
+                    className="underline underline-offset-4 decoration-slate-400 dark:decoration-muted-foreground/50 hover:decoration-slate-900 dark:hover:decoration-muted-foreground"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -294,7 +294,7 @@ export default function Index() {
                 <li>
                   <a
                     href="https://teletype.in/@alteregor/rkPlgmQz8"
-                    className="underline underline-offset-4 decoration-slate-400 dark:decoration-muted-foreground/50 hover:decoration-slate-900 dark:hover:decoration-foreground"
+                    className="underline underline-offset-4 decoration-slate-400 dark:decoration-muted-foreground/50 hover:decoration-slate-900 dark:hover:decoration-muted-foreground"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -307,7 +307,7 @@ export default function Index() {
                 <li>
                   <a
                     href="https://teletype.in/@alteregor/memocard-telegram-contest-win"
-                    className="underline underline-offset-4 decoration-slate-400 dark:decoration-muted-foreground/50 hover:decoration-slate-900 dark:hover:decoration-foreground"
+                    className="underline underline-offset-4 decoration-slate-400 dark:decoration-muted-foreground/50 hover:decoration-slate-900 dark:hover:decoration-muted-foreground"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -321,7 +321,7 @@ export default function Index() {
                 <li>
                   <a
                     href="https://teletype.in/@alteregor/cra-multiple-entry-points"
-                    className="underline underline-offset-4 decoration-slate-400 dark:decoration-muted-foreground/50 hover:decoration-slate-900 dark:hover:decoration-foreground"
+                    className="underline underline-offset-4 decoration-slate-400 dark:decoration-muted-foreground/50 hover:decoration-slate-900 dark:hover:decoration-muted-foreground"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -335,7 +335,7 @@ export default function Index() {
                 <li>
                   <a
                     href="https://teletype.in/@alteregor/mobx-50-loc"
-                    className="underline underline-offset-4 decoration-slate-400 dark:decoration-muted-foreground/50 hover:decoration-slate-900 dark:hover:decoration-foreground"
+                    className="underline underline-offset-4 decoration-slate-400 dark:decoration-muted-foreground/50 hover:decoration-slate-900 dark:hover:decoration-muted-foreground"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
