@@ -4,20 +4,31 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 import { cn } from "@/lib/utils";
-import { Logo } from "@/app/_components/logo";
 
 export function MainNav() {
   const pathname = usePathname();
+  const isMainPage = pathname === "/";
+  const isPostsPage = pathname.startsWith("/posts");
 
   return (
     <div className="mr-4 flex">
-      <Logo />
       <nav className="flex items-center gap-6">
         <Link
           href="/"
           className={cn(
             "transition-colors hover:text-foreground/80",
-            "text-foreground/60",
+            isMainPage ? "text-foreground font-semibold" : "text-foreground/60",
+          )}
+        >
+          Main
+        </Link>
+        <Link
+          href="/posts"
+          className={cn(
+            "transition-colors hover:text-foreground/80",
+            isPostsPage
+              ? "text-foreground font-semibold"
+              : "text-foreground/60",
           )}
         >
           Blog
