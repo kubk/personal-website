@@ -22,7 +22,7 @@ export default async function Post({ params }: Params) {
     <main>
       <Header />
       <Container>
-        <div className="grid grid-cols-5 gap-6 md:gap-12 pt-32">
+        <div className="grid grid-cols-5 gap-6 md:gap-12 pt-16">
           {/* left sidebar */}
           <div className="col-span-5 md:col-span-1">
             <div className="pt-8">

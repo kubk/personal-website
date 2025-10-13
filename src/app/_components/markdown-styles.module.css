@@ -24,6 +24,10 @@
   @apply my-6 ml-6 list-disc [&>li]:mt-2
 }
 
+.markdown ol {
+  @apply my-6 ml-6 list-decimal [&>li]:mt-2
+}
+
 .markdown h1 {
   @apply scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl
 }
@@ -49,11 +53,11 @@
 }
 
 .markdown pre > code {
-  @apply grid px-0 py-0 bg-transparent font-mono text-sm
+  @apply grid px-0 py-0 bg-transparent font-mono text-sm text-gray-100 pl-4
 }
 
 .markdown [data-line] {
-  @apply px-4
+  @apply px-4 -ml-4
 }
 
 .markdown table {
