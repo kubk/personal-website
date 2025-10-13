@@ -44,3 +44,31 @@
   @apply relative rounded bg-muted px-[0.3rem] py-[0.2rem] font-mono text-sm font-semibold
 }
 
+.markdown pre {
+  @apply mt-6 mb-4 overflow-x-auto rounded-lg border bg-zinc-950 py-4
+}
+
+.markdown pre > code {
+  @apply grid px-0 py-0 bg-transparent font-mono text-sm
+}
+
+.markdown [data-line] {
+  @apply px-4
+}
+
+.markdown table {
+  @apply w-full my-6 border-collapse
+}
+
+.markdown th {
+  @apply border border-gray-300 px-4 py-2 bg-gray-100 font-semibold text-left
+}
+
+.markdown td {
+  @apply border border-gray-300 px-4 py-2
+}
+
+.markdown a {
+  @apply text-blue-600 underline hover:text-blue-800 transition-colors
+}
+
