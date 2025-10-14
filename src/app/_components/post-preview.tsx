@@ -32,7 +32,7 @@ export function PostPreview({
             </dd>
           </dl>
         </div>
-        <div className="relative flex items-center text-sm font-medium text-slate-900 dark:text-foreground">
+        <div className="hidden sm:flex relative flex items-center text-sm font-medium text-slate-900 dark:text-foreground">
           Read more
           <ChevronRight className="ml-1.5 mt-0.5" size={14} />
         </div>
