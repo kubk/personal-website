@@ -1,6 +1,6 @@
 # [egor.is-a.dev](https://egor.is-a.dev)
 
-Personal website.
+Personal website with markdown-based blog posts.
 
 ## Stack
 - **Next.js** — Static Site Generation (SSG)
