@@ -7,7 +7,7 @@ Personal website with markdown-based blog posts.
 - **React**
 - **Tailwind CSS**
 - **shadcn/ui**
-- **Cloudflare Pages** — Deployment
+- **Cloudflare Pages** — Deployment. Each pull request is automatically deployed to its own preview URL via Cloudflare Pages branch deployments.
 
 ## Notes
 All pages are compiled to static HTML at build time for maximum speed and zero runtime overhead.
