@@ -9,5 +9,8 @@ Personal website with markdown-based blog posts.
 - **shadcn/ui**
 - **Cloudflare Pages** — Deployment
 
+## Deployment
+Each pull request is automatically deployed to its own preview URL via Cloudflare Pages branch deployments.
+
 ## Notes
 All pages are compiled to static HTML at build time for maximum speed and zero runtime overhead.
