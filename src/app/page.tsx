@@ -14,7 +14,7 @@ export default function Index() {
     <main>
       <Header />
       <Container>
-        <div className="pt-4 sm:pt-16 pb-16">
+        <div className="pt-4 max-w-3xl mx-auto sm:pt-16 pb-16">
           <div className="flex gap-6 mb-12">
             <div className="flex-shrink-0 hidden sm:block">
               <img

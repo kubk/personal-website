@@ -11,7 +11,7 @@ export const petProjects = [
     description: "Logging library for MobX.",
     additionalLink: {
       url: "https://npm-stat.com/charts.html?package=mobx-log&from=2020-02-12",
-      text: "500k+",
+      text: "600k+",
     },
     additionalText: "total downloads",
   },
@@ -39,7 +39,7 @@ export const gitHubContributions = [
   },
   {
     name: "wavesurfer.js",
-    stars: "9.7k+",
+    stars: "9.9k+",
     type: "single" as const,
     prLink: "https://github.com/katspaugh/wavesurfer.js/pull/1760",
     prTitle: "Waveform with rounded bars",
@@ -47,7 +47,7 @@ export const gitHubContributions = [
   },
   {
     name: "assistant-ui",
-    stars: "6.7k+",
+    stars: "7.4k+",
     type: "single" as const,
     prLink: "https://github.com/assistant-ui/assistant-ui/pull/1711",
     prTitle: "Add support for dynamic headers in EdgeChatAdapter",
@@ -69,24 +69,13 @@ export const gitHubContributions = [
     prTitle: "Use TS assertion signature to avoid type casting",
     badge: "merged",
   },
-  {
-    name: "mobx-angular",
-    stars: "479",
-    type: "multiple" as const,
-    count: 10,
-    countLink:
-      "https://github.com/mobxjs/mobx-angular/pulls?q=is%3Apr+is%3Aclosed+author%3Akubk",
-    examplePrLink: "https://github.com/mobxjs/mobx-angular/pull/101",
-    examplePrTitle: "Replace Karma with Jest, run tests on CI",
-    badge: "merged",
-  },
 ] as const;
 
 export const publications = [
   {
     url: "https://habr.com/ru/articles/911996/",
     title: "Why I fix bugs for free and how it changed my career",
-    meta: "(in Russian, 15K views)",
+    meta: "(in Russian, 16K views)",
     badge: "4th place in Habr Open Source competition (80+ entries)",
   },
   {
@@ -108,7 +97,7 @@ export const blogPosts = [
   {
     url: "https://teletype.in/@alteregor/how-to-integrate-telegram-stars",
     title: "How to integrate Telegram Stars Payment to your bot",
-    views: "(19.7K views)",
+    views: "(20.4K views)",
   },
   {
     url: "https://teletype.in/@alteregor/rkPlgmQz8",
