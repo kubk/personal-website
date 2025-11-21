@@ -305,4 +305,4 @@ It is enough to build it once on CI:
 
 ## Conclusion
 
-We've configured CRA to have multiple entry points. Both apps don't interfere with each other and can reuse shared code. Our CI is still fast because we build the app only once. The source code for the demo is available here: [https://github.com/kubk/blog/tree/master/demo/multiple-entry-points](https://github.com/kubk/blog/tree/master/demo/multiple-entry-points)
+We've configured CRA to have multiple entry points. Both apps don't interfere with each other and can reuse shared code. Our CI is still fast because we build the app only once. The source code for the demo is available here [on GitHub](https://github.com/kubk/blog/tree/master/demo/multiple-entry-points)

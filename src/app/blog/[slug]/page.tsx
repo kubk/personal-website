@@ -22,23 +22,17 @@ export default async function Post({ params }: Params) {
     <main>
       <Header />
       <Container>
-        <div className="grid grid-cols-5 gap-6 md:gap-12 pt-16">
-          <div className="col-span-5 md:col-span-1">
-            <div className="pt-8">
-              <Link href="/blog">
-                <p className="text-sm text-slate-400">← Back to Blog</p>
-              </Link>
-            </div>
+        <div className="max-w-3xl mx-auto">
+          <div className="pt-8">
+            <Link href="/blog">
+              <p className="text-sm text-slate-400">← Back to Blog</p>
+            </Link>
           </div>
 
-          <div className="col-span-5 md:col-span-3">
-            <article className="pb-32">
-              <PostHeader title={post.title} />
-              <PostBody content={content} />
-            </article>
-          </div>
-
-          <div className="col-span-5 md:col-span-1"></div>
+          <article className="pb-32">
+            <PostHeader title={post.title} />
+            <PostBody content={content} />
+          </article>
         </div>
       </Container>
     </main>
