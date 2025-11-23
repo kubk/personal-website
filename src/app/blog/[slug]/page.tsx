@@ -25,7 +25,7 @@ export default async function Post({ params }: Params) {
         <div className="max-w-3xl mx-auto">
           <div className="pt-8">
             <Link href="/blog">
-              <p className="text-sm text-slate-400">← Back to Blog</p>
+              <p className="text-sm text-muted-foreground">← Back to Blog</p>
             </Link>
           </div>
 

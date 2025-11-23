@@ -8,6 +8,7 @@ import {
   talks,
   blogPosts,
 } from "@/app/links";
+import Link from "next/link";
 
 export default function Index() {
   return (
@@ -202,6 +203,9 @@ export default function Index() {
                     </span>
                   </li>
                 ))}
+                <li className="underline">
+                  <Link href="/blog">Other blog posts</Link>
+                </li>
               </ul>
             </section>
           </div>

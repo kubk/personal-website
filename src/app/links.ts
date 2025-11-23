@@ -107,17 +107,6 @@ export const blogPosts = [
   {
     url: "https://teletype.in/@alteregor/memocard-telegram-contest-win",
     title: "How I built a project for myself and won a prize from Telegram",
-    views: "(817 views)",
-  },
-  {
-    url: "https://teletype.in/@alteregor/cra-multiple-entry-points",
-    title:
-      "Configure multiple entry points for Create React App without the eject",
-    views: "(4.6K views)",
-  },
-  {
-    url: "https://teletype.in/@alteregor/mobx-50-loc",
-    title: "A simple Mobx under 50 LOC to understand observer pattern",
-    views: "(2.3K views)",
+    views: "(1k views)",
   },
 ] as const;
