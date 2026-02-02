@@ -1,5 +1,10 @@
 export const petProjects = [
   {
+    url: "https://bd1.ai",
+    title: "bd1.ai",
+    description: "AI assistant for Telegram",
+  },
+  {
     url: "https://github.com/kubk/memo-card",
     title: "MemoCard",
     description:
