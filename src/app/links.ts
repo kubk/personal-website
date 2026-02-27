@@ -1,24 +1,40 @@
 export const petProjects = [
   {
     url: "https://bd1.ai",
-    title: "bd1.ai",
-    description: "AI assistant for Telegram",
+    title: "💬 bd1.ai",
+    description: "B2B AI assistant for Telegram",
   },
   {
     url: "https://github.com/kubk/memo-card",
-    title: "MemoCard",
+    title: "🧠 MemoCard",
     description:
       "Award-winning Telegram mini app for improving memory with spaced repetition",
   },
   {
     url: "https://github.com/kubk/mobx-log",
-    title: "mobx-log",
+    title: "📝 mobx-log",
     description: "Logging library for MobX.",
     additionalLink: {
       url: "https://npm-stat.com/charts.html?package=mobx-log&from=2020-02-12",
       text: "600k+",
     },
     additionalText: "total downloads",
+  },
+  {
+    url: "https://github.com/just-block/just-block.github.io",
+    title: "🔒 Just Block",
+    description: "A Chrome extension to quickly block distracting websites",
+  },
+  {
+    url: "https://github.com/kubk/git-filter",
+    title: "✂️ git-filter",
+    description:
+      "Publish parts of the private repository as open source",
+  },
+  {
+    url: "https://github.com/kubk/nomad-expense",
+    title: "💸 Nomad Expense",
+    description: "Family expense tracker as a Telegram mini app",
   },
 ] as const;
 

@@ -48,7 +48,7 @@ export default function Index() {
                 </a>
               </div>
               <p className="text-lg text-slate-600 dark:text-muted-foreground">
-                Hi there 👋 I am an AI TypeScript Engineer turned Founder
+                Hi there 👋 I am a FullStack Engineer turned Founder
               </p>
             </div>
           </div>
@@ -56,7 +56,7 @@ export default function Index() {
           <div className="space-y-12 max-w-4xl">
             <section>
               <h2 className="text-2xl font-bold tracking-tight text-slate-900 dark:text-foreground mb-6">
-                Projects:
+                My projects:
               </h2>
               <ul className="space-y-4 text-slate-700 dark:text-muted-foreground">
                 {petProjects.map((project) => (
