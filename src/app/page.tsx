@@ -3,6 +3,7 @@ import { Header } from "@/app/_components/header";
 import { Badge } from "@/app/_components/badge";
 import {
   petProjects,
+  closedSourceProjects,
   gitHubContributions,
   publications,
   talks,
@@ -91,7 +92,28 @@ export default function Index() {
 
             <section>
               <h2 className="text-2xl font-bold tracking-tight text-slate-900 dark:text-foreground mb-6">
-                My contributions to Open Source:
+                Closed source:
+              </h2>
+              <ul className="space-y-4 text-slate-700 dark:text-muted-foreground">
+                {closedSourceProjects.map((project) => (
+                  <li key={project.url}>
+                    <a
+                      href={project.url}
+                      className="underline underline-offset-4 decoration-muted-foreground/50 hover:decoration-foreground font-medium text-foreground"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {project.title}
+                    </a>{" "}
+                    - {project.description}
+                  </li>
+                ))}
+              </ul>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-bold tracking-tight text-slate-900 dark:text-foreground mb-6">
+                Open Source contributions:
               </h2>
               <ul className="space-y-4 text-slate-700 dark:text-muted-foreground">
                 {gitHubContributions.map((contribution) => (

@@ -1,10 +1,5 @@
 export const petProjects = [
   {
-    url: "https://bd1.ai",
-    title: "💬 bd1.ai",
-    description: "B2B AI assistant for Telegram",
-  },
-  {
     url: "https://github.com/kubk/memo-card",
     title: "🧠 MemoCard",
     description:
@@ -28,8 +23,7 @@ export const petProjects = [
   {
     url: "https://github.com/kubk/git-filter",
     title: "✂️ git-filter",
-    description:
-      "Publish parts of the private repository as open source",
+    description: "Publish parts of the private repository as open source",
   },
   {
     url: "https://github.com/kubk/github-copy-to-llm",
@@ -41,6 +35,14 @@ export const petProjects = [
     url: "https://github.com/kubk/nomad-expense",
     title: "💸 Nomad Expense",
     description: "Family expense tracker as a Telegram mini app",
+  },
+] as const;
+
+export const closedSourceProjects = [
+  {
+    url: "https://bd1.ai",
+    title: "💬 bd1.ai",
+    description: "B2B AI assistant for Telegram",
   },
 ] as const;
 
