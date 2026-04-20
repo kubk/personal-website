@@ -48,7 +48,7 @@ export default function Index() {
                 </a>
               </div>
               <p className="text-lg text-slate-600 dark:text-muted-foreground">
-                Hi there 👋 I am a FullStack Engineer turned Founder
+                Fullstack Engineer
               </p>
             </div>
           </div>

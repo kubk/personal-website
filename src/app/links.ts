@@ -8,7 +8,7 @@ export const petProjects = [
     url: "https://github.com/kubk/memo-card",
     title: "🧠 MemoCard",
     description:
-      "Award-winning Telegram mini app for improving memory with spaced repetition",
+      "Award-winning Telegram mini app for improving memory with spaced repetition. 1k MAU",
   },
   {
     url: "https://github.com/kubk/mobx-log",
@@ -30,6 +30,12 @@ export const petProjects = [
     title: "✂️ git-filter",
     description:
       "Publish parts of the private repository as open source",
+  },
+  {
+    url: "https://github.com/kubk/github-copy-to-llm",
+    title: "📋 Github Copy-to-LLM",
+    description:
+      "Chrome extension that adds Copy-to-LLM button to GitHub's README and gists",
   },
   {
     url: "https://github.com/kubk/nomad-expense",
